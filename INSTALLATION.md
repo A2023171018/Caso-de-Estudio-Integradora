@@ -60,13 +60,13 @@ git push -u origin release/v1.0.0
 1. Ir a Settings → Branches
 2. Agregar regla para `main`:
    - Branch name pattern: `main`
-   - ✅ Require pull request reviews before merging
-   - ✅ Require status checks to pass before merging
-   - ✅ Require branches to be up to date before merging
+   -  Require pull request reviews before merging
+   -  Require status checks to pass before merging
+   -  Require branches to be up to date before merging
 
 3. Agregar regla para `develop`:
    - Branch name pattern: `develop`
-   - ✅ Require pull request reviews before merging
+   -  Require pull request reviews before merging
 
 ## 3. Configurar Secrets en GitHub
 
