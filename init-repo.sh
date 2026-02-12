@@ -10,22 +10,22 @@ echo ""
 
 # Verificar que estamos en el directorio correcto
 if [ ! -f "README.md" ]; then
-    echo "❌ Error: README.md no encontrado. Asegúrate de estar en el directorio raíz del proyecto."
+    echo "Error: README.md no encontrado. Asegúrate de estar en el directorio raíz del proyecto."
     exit 1
 fi
 
 # Paso 1: Inicializar Git
-echo "📦 Paso 1: Inicializando Git..."
+echo "Paso 1: Inicializando Git..."
 git init
 git add .
 git commit -m "Initial commit: Sistema de geolocalización con microservicios"
 
 # Paso 2: Crear rama main
-echo "🌿 Paso 2: Configurando rama main..."
+echo "Paso 2: Configurando rama main..."
 git branch -M main
 
 # Paso 3: Conectar con repositorio remoto
-echo "🔗 Paso 3: Conectando con GitHub..."
+echo "Paso 3: Conectando con GitHub..."
 echo "Ingresa la URL de tu repositorio GitHub:"
 echo "Ejemplo: https://github.com/tu-usuario/sistema-geolocalizacion-microservicios.git"
 read -p "URL: " REPO_URL
@@ -34,12 +34,12 @@ git remote add origin "$REPO_URL"
 git push -u origin main
 
 # Paso 4: Crear rama develop
-echo "🌿 Paso 4: Creando rama develop..."
+echo "Paso 4: Creando rama develop..."
 git checkout -b develop
 git push -u origin develop
 
 # Paso 5: Crear ramas feature de ejemplo
-echo "🌿 Paso 5: Creando ramas feature de ejemplo..."
+echo "Paso 5: Creando ramas feature de ejemplo..."
 
 # Feature: Autenticación JWT
 git checkout -b feature/autenticacion-jwt develop
@@ -74,7 +74,7 @@ git push -u origin release/v1.0.0
 git checkout develop
 
 echo ""
-echo "✅ ¡Repositorio inicializado exitosamente!"
+echo "¡Repositorio inicializado exitosamente!"
 echo ""
 echo "======================================"
 echo "Próximos pasos:"
