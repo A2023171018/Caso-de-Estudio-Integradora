@@ -1,12 +1,6 @@
 # Repositorio GitHub - Estrategia de Ramificación GitFlow
 
-## 📌 Enlace del Repositorio
-
-**URL:** `https://github.com/TU-USUARIO/sistema-geolocalizacion-microservicios`
-
----
-
-## 🌿 Estructura de Ramas Implementada (GitFlow)
+##  Estructura de Ramas Implementada (GitFlow)
 
 ### Ramas Principales
 - **`main`** → Código en producción (protegida)
@@ -25,7 +19,7 @@
 
 ---
 
-## 🔄 Flujo de Trabajo
+##  Flujo de Trabajo
 
 ```
 feature/* → develop → release/* → main
@@ -42,21 +36,21 @@ hotfix/* ───────────────────────�
 
 ---
 
-## 🔒 Protección de Ramas
+##  Protección de Ramas
 
 ### Configuración en GitHub (Settings → Branches)
 
 **Rama `main`:**
-- ✅ Require pull request reviews before merging
-- ✅ Require status checks to pass before merging
-- ✅ Require branches to be up to date before merging
+-  Require pull request reviews before merging
+-  Require status checks to pass before merging
+-  Require branches to be up to date before merging
 
 **Rama `develop`:**
-- ✅ Require pull request reviews before merging
+-  Require pull request reviews before merging
 
 ---
 
-## 📸 Evidencias
+##  Evidencias
 
 ### 1. Vista de Ramas
 Captura de pantalla mostrando todas las ramas en GitHub:
@@ -81,7 +75,7 @@ Captura de Actions mostrando el pipeline CI/CD ejecutándose
 
 ---
 
-## 🚀 Comandos de Inicialización
+##  Comandos de Inicialización
 
 ```bash
 # Clonar el repositorio
@@ -100,7 +94,7 @@ git checkout -b feature/mi-nueva-funcionalidad
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 sistema-geolocalizacion-microservicios/
@@ -128,7 +122,7 @@ sistema-geolocalizacion-microservicios/
 
 ---
 
-## ✅ Checklist de Configuración
+##  Checklist de Configuración
 
 - [ ] Repositorio creado en GitHub
 - [ ] Todas las ramas creadas (main, develop, features, release)
@@ -140,7 +134,7 @@ sistema-geolocalizacion-microservicios/
 
 ---
 
-## 📖 Documentación Adicional
+##  Documentación Adicional
 
 - **README.md**: Documentación principal del proyecto
 - **docs/INSTALLATION.md**: Guía de instalación y comandos
@@ -148,7 +142,7 @@ sistema-geolocalizacion-microservicios/
 
 ---
 
-## 🎯 Triggers del Pipeline CI/CD
+##  Triggers del Pipeline CI/CD
 
 | Rama | Acción | Pipeline | Destino |
 |------|--------|----------|---------|
